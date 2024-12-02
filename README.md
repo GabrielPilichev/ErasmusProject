@@ -29,14 +29,15 @@ Define permissions for different roles (e.g., administrator, teacher, student).
 Database Design
 The application uses a relational database with the following main tables:
 
-**Users:** Stores user details, roles, and authentication information.
-**Roles:** Defines roles (e.g., student, teacher, admin) and their associated permissions.
-**Courses:** Holds details about courses, including name, topics, age restrictions, and schedule.
-**StudentCourses:** Tracks which students are enrolled in specific courses.
-**CourseSchedule:** Manages the schedule for courses and private lessons.
-**StudentGrades:** Records grades and feedback for students.
-**StudentPresence:** Tracks attendance for students in scheduled lessons.
+- **Users:** Stores user details, roles, and authentication information.
+- **Roles:** Defines roles (e.g., student, teacher, admin) and their associated permissions.
+- **Courses:** Holds details about courses, including name, topics, age restrictions, and schedule.
+- **StudentCourses:** Tracks which students are enrolled in specific courses.
+- **CourseSchedule:** Manages the schedule for courses and private lessons.
+- **StudentGrades:** Records grades and feedback for students.
+- **StudentPresence:** Tracks attendance for students in scheduled lessons.
 Refer to the ER Diagram for detailed relationships between tables.
+![alt text](image.png)
 
 ### Installation
 1.Clone the Repository:
@@ -76,4 +77,3 @@ git checkout -b feature-name
 git commit -m "Description of your feature"
 - Push to your fork and submit a pull request.
 
-![alt text](image.png)
