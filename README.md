@@ -75,3 +75,5 @@ git checkout -b feature-name
 - Commit your changes:
 git commit -m "Description of your feature"
 - Push to your fork and submit a pull request.
+
+![alt text](image.png)
