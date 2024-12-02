@@ -1,9 +1,11 @@
-# ErasmusProject`
-Grading and Scheduling System
-Overview
+# ErasmusProject
+
+## Grading and Scheduling System
+
+**Overview**
 This project is a web application similar to Shkolo.bg, designed to provide a comprehensive grading and scheduling system for students, teachers, and administrators. The app allows users to manage courses, private lessons, grades, and student attendance effectively.
 
-Features
+**Features**
 User Management:
 
 Support for roles such as students, teachers, and administrators.
@@ -36,37 +38,39 @@ StudentGrades: Records grades and feedback for students.
 StudentPresence: Tracks attendance for students in scheduled lessons.
 Refer to the ER Diagram for detailed relationships between tables.
 
-Installation
-Clone the Repository:
+**Installation**
+1.Clone the Repository:
 
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
-Setup the Environment:
 
-Install the required software:
-Node.js (for backend or frontend, if applicable).
-PostgreSQL (for the database).
-Configure .env file with:
-Database credentials.
-Application secrets.
-Run Migrations: Use a migration tool (like Flyway or Entity Framework) to initialize the database schema.
+2.Setup the Environment:
 
-Start the Application:
+- Install the required software:
+    - Node.js (for backend or frontend, if applicable).
+    - PostgreSQL (for the database).
+- Configure .env file with:
+    - Database credentials.
+    - Application secrets.
 
+3.Run Migrations: Use a migration tool (like Flyway or Entity Framework) to initialize the database schema.
+
+4.Start the Application:
 npm start
-or for backend-specific:
-
+(or for backend-specific:)
 dotnet run
-Usage
-Administrators can manage users, courses, and schedules.
-Teachers can manage their assigned courses, schedule lessons, and grade students.
-Students can view their grades, schedules, and attendance records.
-Contributing
+
+**Usage**
+- Administrators can manage users, courses, and schedules.
+- Teachers can manage their assigned courses, schedule lessons, and grade students.
+- Students can view their grades, schedules, and attendance records.
+
+**Contributing**
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature:
+1.Fork the repository.
+2.Create a new branch for your feature:
 git checkout -b feature-name
-Commit your changes:
+3.Commit your changes:
 git commit -m "Description of your feature"
-Push to your fork and submit a pull request.
+4.Push to your fork and submit a pull request.
