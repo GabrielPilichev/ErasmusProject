@@ -36,7 +36,8 @@ The application uses a relational database with the following main tables:
 - **CourseSchedule:** Manages the schedule for courses and private lessons.
 - **StudentGrades:** Records grades and feedback for students.
 - **StudentPresence:** Tracks attendance for students in scheduled lessons.
-Refer to the ER Diagram for detailed relationships between tables.
+
+#### Refer to the ER Diagram for detailed relationships between tables.
 ![alt text](image.png)
 
 ### Installation
