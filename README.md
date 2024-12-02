@@ -68,9 +68,10 @@ dotnet run
 ### Contributing
 Contributions are welcome! Please follow these steps:
 
-1.Fork the repository.
-2.Create a new branch for your feature:
+- Fork the repository.
+- Create a new branch for your feature:
 git checkout -b feature-name
-3.Commit your changes:
+
+- Commit your changes:
 git commit -m "Description of your feature"
-4.Push to your fork and submit a pull request.
+- Push to your fork and submit a pull request.
