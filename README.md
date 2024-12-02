@@ -2,10 +2,10 @@
 
 ## Grading and Scheduling System
 
-**Overview**
+### Overview
 This project is a web application similar to Shkolo.bg, designed to provide a comprehensive grading and scheduling system for students, teachers, and administrators. The app allows users to manage courses, private lessons, grades, and student attendance effectively.
 
-**Features**
+### Features
 User Management:
 
 Support for roles such as students, teachers, and administrators.
@@ -29,16 +29,16 @@ Define permissions for different roles (e.g., administrator, teacher, student).
 Database Design
 The application uses a relational database with the following main tables:
 
-Users: Stores user details, roles, and authentication information.
-Roles: Defines roles (e.g., student, teacher, admin) and their associated permissions.
-Courses: Holds details about courses, including name, topics, age restrictions, and schedule.
-StudentCourses: Tracks which students are enrolled in specific courses.
-CourseSchedule: Manages the schedule for courses and private lessons.
-StudentGrades: Records grades and feedback for students.
-StudentPresence: Tracks attendance for students in scheduled lessons.
+**Users:** Stores user details, roles, and authentication information.
+**Roles:** Defines roles (e.g., student, teacher, admin) and their associated permissions.
+**Courses:** Holds details about courses, including name, topics, age restrictions, and schedule.
+**StudentCourses:** Tracks which students are enrolled in specific courses.
+**CourseSchedule:** Manages the schedule for courses and private lessons.
+**StudentGrades:** Records grades and feedback for students.
+**StudentPresence:** Tracks attendance for students in scheduled lessons.
 Refer to the ER Diagram for detailed relationships between tables.
 
-**Installation**
+### Installation
 1.Clone the Repository:
 
 git clone https://github.com/your-username/your-repository-name.git
@@ -60,12 +60,12 @@ npm start
 (or for backend-specific:)
 dotnet run
 
-**Usage**
+### Usage
 - Administrators can manage users, courses, and schedules.
 - Teachers can manage their assigned courses, schedule lessons, and grade students.
 - Students can view their grades, schedules, and attendance records.
 
-**Contributing**
+### Contributing
 Contributions are welcome! Please follow these steps:
 
 1.Fork the repository.
